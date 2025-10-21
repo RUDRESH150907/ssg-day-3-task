@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>SIMPLE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <h1 style="color: rgb(5, 236, 179) ;" >SIMPLE CALCULATOR</h1>
+    <div class="calculator">
+        <form>
+            <div>
+                <input type="text" class="display" name="display" placeholder="CALCULATOR">
+            </div>
+            <div>
+                <input type="button" value="AC" class="ac" style="color: rgb(7, 242, 156);" onclick="display.value = ''">
+                <input type="button" value="." style="color: rgb(7, 242, 156);" onclick="display.value +='.'">
+                <input type="button" value="/" style="color: rgb(7, 242, 156);" onclick="display.value +='/'">
+            </div>
+            <div>
+                <input type="button" value="7" style="color: azure;" onclick="display.value +='7'">
+                <input type="button" value="8" style="color: azure;" onclick="display.value +='8'">
+                <input type="button" value="9" style="color: azure;" onclick="display.value +='9'">
+                <input type="button" value="*" style="color: rgb(7, 242, 156);" onclick="display.value +='*'">
+            </div> 
+            <div>
+                <input type="button" value="4" style="color: azure;" onclick="display.value +='4'">
+                <input type="button" value="5" style="color: azure;" onclick="display.value +='5'">
+                <input type="button" value="6" style="color: azure;" onclick="display.value +='6'">
+                <input type="button" value="-" style="color: rgb(7, 242, 156);" onclick="display.value +='-'">
+            </div>
+            <div>
+                <input type="button" value="1" style="color: azure;" onclick="display.value +='1'">
+                <input type="button" value="2" style="color: azure;" onclick="display.value +='2'">
+                <input type="button" value="3" style="color: azure;" onclick="display.value +='3'">
+                <input type="button" value="+" style="color: rgb(7, 242, 156);"onclick="display.value +='+'">
+            </div>
+            <div>
+                <input type="button" class="zero" value="00" style="color: azure;" onclick="display.value +='00'">
+                <input type="button" value="0" style="color: azure;" onclick="display.value +='0'">
+                <input type="button" value="=" style="color: rgb(7, 242, 156);" onclick="display.value = ''">               
+        </form>
+    </div>
+</body>
+</html>

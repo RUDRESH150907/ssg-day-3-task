@@ -1,0 +1,40 @@
+
+.calculator .ac {
+    width: 135px;
+}
+.calculator .zero {
+    width: 135px;
+}
+
+
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    align-items: center;
+}
+input[type="button"] {
+    width: 60px;
+    height: 40px;
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 80px;
+    background-color: black;
+}
+
+.display{
+    padding: 8px;
+    margin: 10px;
+    border-radius: 80px;
+    width: 260px;
+    height: 30px;
+}
+body {
+    background-color: #f0f0f0;
+    font-family: poppins, sans-serif;
+    background-image: url(gettyimages-1369813016-640x640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input[type="button"]:hover{
+    box-shadow: 0 0 20px rgb(247, 246, 246);
+}
